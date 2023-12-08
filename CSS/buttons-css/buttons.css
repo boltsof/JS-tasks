@@ -1,0 +1,46 @@
+.button-delete{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: large;
+    color: #f0f3fa ;
+    height: 50px;
+    margin-top: 13px;
+    width: 100%;
+    background-color: #b1696d;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#b1696d;
+}
+
+.button-delete:hover {
+    transform: scale(110%)
+}
+
+.button-delete:active {
+    background-color:#740006;
+    transition: 0.1s;
+}
+
+
+.button-enter{
+    width: 170px;
+    height: 50px;
+    border-radius: 10px;
+    color: #f0f3fa ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    background-color: #5d74e8;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5d74e8 ;
+}
+
+.button-enter:hover {
+    transform: scale(110%)
+}
+
+.button-enter:active {
+    background-color:#04288a;
+    transition: 0.1s;
+}

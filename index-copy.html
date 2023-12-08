@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasks</title>
+</head>
+
+<body>
+
+    <header class="main-header">
+        <div class="nav-bar">
+            <div class="nav-bar-content-block">
+                <H1 class="name-nav-bar">Список задач</H1>
+            </div>
+        </div>
+    </header>
+
+    <div class="main">
+        <div class="content-block">
+            <div class="task-container">
+                <div class="create-task-container">
+                    <h2 class="new-task-text">Новая задача</h2> 
+                    <div class="input-container">
+                        <input class="input-place" type="text" placeholder=" Название задачи...">
+                        <input class="button-enter" type="button" value=" + Добавить ">
+                    </div>
+                </div>
+            </div>
+
+            <div class="type-of-content-block">
+                <ul class="backlog-block">
+                    <h3 class="name-of-backlog-block">Бэклог</h3>
+                    <li class="backlog-li">Выучить JS</li>
+                    <li class="backlog-li">Выучить React</li>
+                    <li class="backlog-li">Сделать домашку</li>
+                </ul>
+
+                <ul class="in-processing-block">
+                    <h3 class="name-of-processing-block">В процессе</h3>
+                    <li class="processing-li">Выпить смузи</li>
+                    <li class="processing-li">Перестать тупить</li>
+                </ul>
+
+                <ul class="done-block">
+                    <h3 class="name-of-done-block">Готово</h3>
+                    <li class="done-li">Позвонить маме</li>
+                    <li class="done-li">Погладить Кекса???</li>
+                </ul>
+
+                <ul class="basket-block">
+                    <h3 class="name-of-basket-block">Корзина</h3>
+                    <li class="basket-li">Сходить погулять</li>
+                    <li class="basket-li">Катку в доту</li>
+                    <input class="button-delete" type="button" value=" x Удалить ">
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

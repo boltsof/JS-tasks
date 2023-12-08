@@ -1,0 +1,102 @@
+@import url(./buttons-css/buttons.css);
+@import url(./input-css/input.css);
+@import url(./navigation-bar/nav-bar.css);
+@import url(./type-of-content-block/type-of-content.css);
+@import url(./blocks-css/task-blocks.css);
+
+.html{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0px;
+    background-color: #f0f3fa;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.content-block{
+    width: 1200px;
+    height: 500px;
+}
+
+.task-container{
+    width: max-content;
+    height: max-content;
+}
+.create-task-container{
+    background-color: #ffffff;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.new-task-text{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(39, 38, 37);
+    margin: 0px;
+}
+
+.input-container{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.type-of-content-block{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+
+.backlog-block{
+    margin: 0px;
+    width: 270px;
+    padding-left: 0px;
+    list-style: none;
+}
+
+
+.in-processing-block{
+    margin: 0px;
+    width: 270px;
+    padding-left: 0px;
+    list-style: none;
+}
+
+
+
+.done-block{
+    margin: 0px;
+    width: 270px;
+    padding-left: 0px;
+    list-style: none;
+}
+
+
+.basket-block{
+    margin: 0px;
+    width: 270px;
+    padding-left: 0px;
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+

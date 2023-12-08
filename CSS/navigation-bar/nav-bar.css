@@ -1,0 +1,23 @@
+.main-header{
+    display: block;
+    height: 100px;
+    background-color: #5d74e8
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar-content-block{
+    height: 100px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+}
+
+.name-nav-bar{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f0f3fa;
+    margin: 0px;
+}

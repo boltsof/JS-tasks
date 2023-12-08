@@ -1,0 +1,113 @@
+.task-block {
+    margin: 0px;
+    width: 270px;
+    padding-left: 0px;
+    list-style: none;
+    
+}
+
+.task-li{
+    height: 55px;
+    margin-top: 8px;
+    padding-left: 15px;
+    background-color: #ffffff;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #626262;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ffffff;
+}
+
+.in-processing-li{
+    height: 55px;
+    margin-top: 8px;
+    padding-left: 15px;
+    background-color: #ffffff;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #626262;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ffffff;
+}
+
+.type-of-content-block h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-inline: 15px;
+    padding-top: 8px;
+    text-align: center;
+    width: max-content;
+    height: 30px;
+    border-radius: 7px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+
+.name-of-done-block{
+    color: #8eb884;
+    border-color: #ccf6cc;
+    background-color: #ccf6cc;
+
+}
+
+.name-of-basket-block{
+    color: #b1696d;
+    border-color: #f4d9d9;
+    background-color: #f4d9d9;
+
+}
+
+.name-of-processing-block{
+    color: #8386d2;
+    background-color: #d4e1ff;
+    border-color: #dbe5fd;
+}
+
+.name-of-backlog-block{
+    color: #86858a;
+    background-color: #e3e3e3;
+    border-color:#e3e3e3;
+}
+
+.task-block-name{
+    color: #86858a;
+    background-color: #e3e3e3;
+    border-color:#e3e3e3;
+}
+
+.in-processing .task-block-name{
+    color: #8386d2;
+    background-color: #d4e1ff;
+    border-color: #dbe5fd;
+}
+
+
+.basket .task-block-name{
+    color: #b1696d;
+    border-color: #f4d9d9;
+    background-color: #f4d9d9;
+}
+
+.backlog .task-block-name{
+    color: #86858a;
+    background-color: #e3e3e3;
+    border-color:#e3e3e3;
+}
+
+.done .task-block-name{
+    color: #8eb884;
+    border-color: #ccf6cc;
+    background-color: #ccf6cc;
+}
